@@ -52,8 +52,8 @@
 - **Environment:** Google Colab (PyTorch + GPU)
 
 После обучения модель показала следующие результаты на валидационной выборке:
-- **Val Accuracy:** 
-- **Val Loss:** 
+- **Val Accuracy:** 67.1875
+- **Val Loss:** 1.0
 
 
 ### 3.3. Выводы
