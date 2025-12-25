@@ -39,15 +39,8 @@
 
 ### 2.3. Архитектура CNN
 
-class model(nn.Module):
-    def __init__(self, num_classes=11, pool_out=7):
-        super().__init__()
-        self.conv1 = nn.Conv2d(3, 16, 3, padding=1)
-        self.conv2 = nn.Conv2d(16, 32, 3, padding=1)
-        self.conv3 = nn.Conv2d(32, 48, 3, padding=1)
-        self.gap = nn.AdaptiveAvgPool2d((pool_out, pool_out))
-        self.fc1 = nn.Linear(48 * pool_out * pool_out, 128)
-        self.fc2 = nn.Linear(128, num_classes)
+<img width="389" height="340" alt="image" src="https://github.com/user-attachments/assets/54bb985d-3433-4ca4-b9e2-6ba4630db2ca" />
+
 
 ## 3. Результаты и выводы
 
